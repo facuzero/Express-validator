@@ -7,7 +7,6 @@ function adminUsers( req, res, next){
         next()
     }
     else {
-        console.log(path)
         res.send("Quien te conoce papá...No estas autorizado/a/e")
     }
 }
